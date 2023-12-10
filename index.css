@@ -68,7 +68,7 @@
     position: absolute;
     top: 30px;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 700;
     display: flex;
     text-align: center;
     color: #1B1B1B;
@@ -106,6 +106,7 @@
     margin-top: 144px;
     margin-left: 144px;
     font-size: 40px;
+    font-weight: 600;
 }
 
 .cards{
@@ -136,7 +137,6 @@
 }
 
 .card1text {
-    font-weight: Medium;
     bottom: 57px;
 }
 
@@ -237,6 +237,63 @@
 .block_3{
     width: 1440px;
     height: 656px;
-    margin-top: 118px;
+    top: 118px;
+    position: relative;
     background-color: #1B1B1B;
+}
+
+.image3{
+    width: 552px;
+    height: 552px;
+    top: 52px;
+    left: 144px;
+    position: absolute;
+    background-image: url(img/image3.png);
+}
+
+.text3{
+    font-size: 40px;
+    font-weight: 600;
+    top: 143px;
+    left: 768px;
+    position: absolute;
+    color: #F2F7F9;
+}
+
+.text3_1{
+    width: 531px;
+    font-size: 20px;
+    top: 270px;
+    left: 768px;
+    position: absolute;
+    color: #F2F7F9;
+}
+
+.button3{
+    width: 288px;
+    height: 64px;
+    top: 450px;
+    left: 768px;
+    position: absolute;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F7F9;
+}
+
+.block4text{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 260px;
+    margin-left: 144px;
+    color: black;
+}
+
+.card4_1{
+    width: 192px;
+    height: 192px;
+    background-image: url(img/block4_1.png);
 }
