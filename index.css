@@ -622,6 +622,13 @@ li {
 
                     /*ABOUT US*/
 
+.wrapperAB{
+width: 1440px;
+height: 4838px;
+background-color: #F2F7F9;
+margin: 0 auto;
+}
+
 .textAB{
     margin-top: 264px;
     margin-left: 144px;
@@ -715,4 +722,77 @@ li {
     margin-left: 744px;
     margin-top: -420px;
     background-image: url(img/imageAB1.png);
+}
+
+.block_4AB{
+    width: 1440px;
+    height: 728px;
+    top: 144px;
+    position: relative;
+    background-color: #1B1B1B;
+}
+
+.image4AB{
+    width: 552px;
+    height: 552px;
+    top: 88px;
+    left: 744px;
+    position: absolute;
+    background-image: url(img/ABphoto.png);
+}
+
+.first-textAB{
+    font-size: 40px;
+    font-family: IBM Plex Serif;
+    font-weight: 600;
+    top: 198px;
+    left: 144px;
+    position: absolute;
+    color: #F2F7F9;
+}
+
+.text4_1AB{
+    width: 531px;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 400;
+    top: 270px;
+    left: 144px;
+    position: absolute;
+    color: #F2F7F9;
+}
+
+.iconsAB{
+    width: 320px;
+    height: 72px;
+    position: absolute;
+    left: 144px;
+    top: 458px;
+    background-repeat: no-repeat;
+    
+}
+
+.iconAB1{
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+}
+
+.iconAB2, .iconAB3 {
+    width: 72px;
+    height: 72px;
+    margin-left: 48px;
+    display: inline-block;
+}
+
+.iconAB1{
+    background-image: url(img/ABicon1.png);
+}
+
+.iconAB2{
+    background-image: url(img/ABicon2.png);
+}
+
+.iconAB3{
+    background-image: url(img/ABicon3.png);
 }
